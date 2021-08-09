@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html { 
+    background: url(https://cdn.shopify.com/s/files/1/0095/8418/1329/products/PLAIN_Pink_49c6bf3d-b551-4516-95dc-265c77c21ec3_500x.jpg?v=1588787914) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    background-color: #88898b;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c52de;
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about-Me   {
+    margin-right: 20px;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0d0d0e;
+}
+
+.work {
+    margin-right: 20px;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  #030303;
+}
+
+.resume{
+    background-color:  #030303;
+}
+
+.contact-Me {
+    margin-right: 20px;
+    padding: 20px;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #030303;
+
+}
+.about-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff
+}
+
+.contact-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff
+}
+
+.card {
+    border-style: solid;
+    float: center;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(0deg);
+    box-shadow: 10px 10px 5px #da0c9594;
+    margin: 20px;
+    background-color:#0c52de;
+
+  }
+ 
+  .work {
+    border-style: solid;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+  .contact-Me   {
+    border-style: solid;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+  .about-Me {
+    border-style: solid;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+  .resume {
+    border-style: solid;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+
+  .footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c52de;
+    color: #ffffff;
+    
+}
+
+.footer {
+    display: block;
+    font-size: 50px;
+}
+
+.footer h1 {
+    display: inline-block
+    position: center;
+    font-size: 50px;
+}
+
+
+.footer div {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.footer div ul {
+    list-style-type: none;
+}
+
+.foot div ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+
