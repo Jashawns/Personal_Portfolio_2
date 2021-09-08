@@ -20,8 +20,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #0c52de;
     color: #ffffff;
-    font-size: 25px;
-    
+    font-size: 25px;  
 }
 
 .header div {
@@ -77,7 +76,7 @@ a {
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0d0d0e;
+    background-color: rgb(201, 9, 201);
 }
 
 .work {
@@ -87,11 +86,11 @@ a {
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:  #030303;
+    background-color: rgb(201, 9, 201);
 }
 
 .resume{
-    background-color:  #030303;
+    background-color: rgb(201, 9, 201);
 }
 
 .contact-Me {
@@ -102,7 +101,7 @@ a {
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #030303;
+    background-color: rgb(201, 9, 201);
 
 }
 .about-Me h2 {
@@ -126,12 +125,12 @@ a {
 .card {
     border-style: solid;
     /* float: center; */
-    border-width: 1px;
+    border-width: 7px;
     border-radius: 50px;
-    padding: 10px;
+    padding: 50px;
     flex: 0 0 300px;
     transform: rotate(0deg);
-    box-shadow: 10px 10px 5px #da0c9594;
+    box-shadow: 20px 20px 10px #da0c9594;
     margin: 20px;
     background-color:#0c52de;
 
@@ -142,6 +141,7 @@ a {
     float: left;
     padding: 10px;
     margin: 20px;
+    background-color: rgb(201, 9, 201);
 
   }
 
@@ -204,47 +204,48 @@ a {
 .foot div ul li {
     display: inline-block;
     margin-left: 25px;
+}
 
-    .page-header {
-        display: grid;
-        grid-column-gap: 30px;
-        grid-template-columns: 1fr 3fr;
-        padding: 40px 0;
-        border-top: 1px solid;
-        border-bottom: 1px solid;
-        margin-bottom: 150px;
-      }
+.page-header {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 3fr;
+    padding: 40px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 150px;
+}
        
-      .header-text {
-        font-weight: bold;
+.header-text {
+    font-weight: bold;
 }
 
 /*CUSTOM VARIABLES HERE*/
  
 .section {
     padding: 150px 0;
-  }
+}
    
-  .section:nth-of-type(1),
-  .section:nth-of-type(3) {
-    background: var(--beige);
-  }
+.section:nth-of-type(1),
+.section:nth-of-type(3) {
+background: var(--beige);
+}
    
-  .section-text {
-    margin: 50px 0;
-    max-width: 800px;
-  }
+.section-text {
+margin: 50px 0;
+max-width: 800px;
+}
    
-  .section-btn {
-    display: inline-block;
-    color: var(--beige);
-    background: var(--black);
-    min-width: 200px;
-    height: 50px;
-    padding: 9px 40px;
-    text-align: center;
-  }
+.section-btn {
+display: inline-block;
+color: var(--beige);
+background: var(--black);
+min-width: 200px;
+height: 50px;
+padding: 9px 40px;
+text-align: center;
+}
 
-  html { 
-    scroll-behavior: smooth; 
-  }
+html { 
+scroll-behavior: smooth; 
+}
