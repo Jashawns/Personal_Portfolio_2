@@ -6,7 +6,10 @@ Updated portfolio featuring Project 1 and four exemplary homework assignments. T
 
 ## Visuals 
 
-![demo](./assets/images/Demo.png) 
+![demo](./assets/images/Demo1.png)
+![demo](./assets/images/Demo2.png) 
+![demo](./assets/images/Demo3.png) 
+![demo](./assets/images/Demo4.png)  
 
 
 ## Links
